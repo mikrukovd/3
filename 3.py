@@ -32,7 +32,9 @@ Content-Type: text/plain; charset="UTF-8";
 Все проекты — они же решение наших задачек — можно разместить на твоём GitHub. Работодатели такое оценят. 
 
 Регистрируйся → {website}  
-На курсы, которые еще не вышли, можно подписаться и получить уведомление о релизе сразу на имейл.""".format(website=website,friend_name=friend_name,my_name=my_name, email_from = email_from,email_to=email_to)
+На курсы, которые еще не вышли, можно подписаться и получить уведомление о релизе сразу на имейл."""
+
+letter.format(website=website,friend_name=friend_name,my_name=my_name, email_from = email_from,email_to=email_to)
 
 letter = letter.encode('UTF-8')
 
